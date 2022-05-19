@@ -8,6 +8,6 @@ def calculator(sqrt,floor):
           solution=(round(math.sqrt(sqrt),2),math.floor(floor))
           return "The squared root returns {} and floor returns {}".format(solution[0],solution[1])
       except:
-           return "Must be a poisitive real number"
+           return "Must be a positive real number"
     else:
           return "Gotta be greater than 0"
