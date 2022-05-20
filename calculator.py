@@ -11,3 +11,5 @@ def calculator(sqrt,floor):
            return "Must be a positive real number"
     else:
           return "Gotta be greater than 0"
+
+print(calculator(900,9.2)
