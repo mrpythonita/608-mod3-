@@ -6,7 +6,7 @@ def calculator(sqrt,floor):
       import math
       try:
           solution=(round(math.sqrt(sqrt),2),math.floor(floor))
-          return "The squared root returns {} and floor returns {}".format(solution[0],solution[1])
+          return "The squared root of {} returns {} and floor of {}  returns {}".format(sqrt,solution[0],floor,solution[1])
       except:
            return "Must be a positive real number"
     else:
