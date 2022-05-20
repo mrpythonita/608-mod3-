@@ -15,4 +15,4 @@ def max_min_value(*args):
         return "Please only enter intger/float numbers"
     return "The max value is {} and the min value is {}.".format(result[0],result[1])
 
-max_min_value(12,23,34,45,67)
+print(max_min_value(12,23,34,45,67))
